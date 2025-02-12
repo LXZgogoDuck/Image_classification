@@ -1,5 +1,6 @@
 # python-project-classification
 * implementations
+  
 1.training function:
 First calculate the total loss and accurate data in training process. For accuracy, the correct data equals the number of train_outputs == target. Then the ratio equal to the number divide by the total number of training set i.e. len(training_loader.dataset)
 Return training_acc and training_loss
